@@ -1,12 +1,14 @@
 html{
   scroll-behavior: smooth;
 }
+body{
+  background-color: #FAFFFD;
+}
 
 /* Global Button */
 
 .global-btn{
   display: inline-block;
-  font-weight: 400;
   text-align: center;
   border: 1px solid transparent;
   font-size: 1rem;
@@ -17,15 +19,33 @@ html{
   font-weight: 500;
   background: linear-gradient(to right, #0AB3E2, #1CD9B7);
 }
+.global-btn:hover{
+  background: linear-gradient(to right, rgba(4, 182, 231, 0.774), #17d6b3e1);
+}
+.global-btn:focus{
+  border: none;
+  outline: none;
+}
 /* section styles */
 
 section{
-  padding: 20px;
+  background-color: #FAFFFD;
+  padding: 20px 10px;
   margin-bottom: 10px;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.section-title{
+  font-weight: 600;
+  font-size: 45px
 }
 
 /*NavBar Styles */
  .nav-link:hover, .nav-link:active, .nav-link:focus{
    font-weight: bold;
+ }
+ .nav-link:last-child{
+   padding: 0;
  }
