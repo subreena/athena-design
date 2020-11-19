@@ -39,7 +39,8 @@ section{
 }
 .section-title{
   font-weight: 600;
-  font-size: 45px
+  font-size: 45px;
+  text-align: center;
 }
 
 /*NavBar Styles */
