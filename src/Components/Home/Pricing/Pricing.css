@@ -1,0 +1,104 @@
+.pricing-container{
+    background-image: url(../../images/Group\ 46@2x.png);
+    background-position: right;
+    margin-bottom: 0;
+}
+
+/* Pricing button style */
+.card:hover .pricing-btn{
+    display: block;
+}
+
+.pricing-btn{
+    text-align: center;
+    display: none;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    height: 550px;
+}
+
+.card:hover{
+    border: 3px solid #1BD7BA;
+    box-shadow: 5px 5px 10px lightgray;
+    
+}
+
+.card:hover .price-tag{
+    border-bottom: none;
+}
+
+.price-tag{
+    border-bottom: 1px solid #1BD7BA;
+    padding-bottom: 20px;
+}
+
+
+/* responsive by media query */
+
+@media screen and (max-width: 1024px){
+    .price-tag{
+        border-bottom: 1px solid #1BD7BA;
+        padding-bottom: 20px;
+    }
+    .card{
+        border: none;
+        box-shadow: 5px 5px 10px lightgray;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 399px){
+    .price-tag{
+        border-bottom: 1px solid #1BD7BA;
+        padding-bottom: 20px;
+    }
+    .card{
+        border: none;
+        box-shadow: 5px 5px 10px lightgray;
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 345px){
+    .price-tag{
+        border-bottom: 1px solid #1BD7BA;
+        padding-bottom: 20px;
+    }
+    .card{
+        border: none;
+        box-shadow: 5px 5px 10px lightgray;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .price-tag{
+        border-bottom: 1px solid #1BD7BA;
+        padding-bottom: 20px;
+    }
+    .card{
+        border: none;
+        box-shadow: 5px 5px 10px lightgray;
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .price-tag{
+        border-bottom: 1px solid #1BD7BA;
+        padding-bottom: 20px;
+    }
+    .card{
+        border: none;
+        box-shadow: 5px 5px 10px lightgray;
+        height: 1200px;
+    }
+    .card-text ul li p{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+}
