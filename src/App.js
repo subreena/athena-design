@@ -13,11 +13,13 @@ import About from "./Components/Home/About/About";
 import Pricing from "./Components/Home/Pricing/Pricing";
 import Services from "./Components/Home/Services/Services";
 import Contact from "./Components/Home/Contact/Contact";
+import NavBar from "./Components/Home/NavBar/NavBar";
 
 const App = () => {
   return (
   <>
   <Router>
+  <NavBar></NavBar>
   <Switch>
     <Route path="/#home">
       <Banner></Banner>
@@ -31,7 +33,7 @@ const App = () => {
     <Route path="/#pricing">
       <Pricing></Pricing>
     </Route>
-    <Route path="/contact-us">
+    <Route path="/#contact-us">
       <Contact></Contact>
     </Route>
     <Route exact path="/">

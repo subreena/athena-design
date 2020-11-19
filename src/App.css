@@ -4,7 +4,14 @@ html{
 body{
   background-color: #FAFFFD;
 }
+p{
+  font-family: 'Montserrat', sans-serif;
+}
 
+.p-text{
+  color: #8D8D8D;
+  font-weight: 400;
+}
 /* Global Button */
 
 .global-btn{
@@ -30,9 +37,8 @@ body{
 
 section{
   background-color: #FAFFFD;
-  padding: 20px 10px;
+  padding: 50px 10px ;
   margin-bottom: 10px;
-  min-height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -40,9 +46,18 @@ section{
 .section-title{
   font-weight: 600;
   font-size: 45px;
-  text-align: center;
+  font-family: 'Yeseva One', cursive;
 }
-
+@media screen and (max-width: 768px){
+  .section-title{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 450px){
+  .section-title{
+    font-size: 27px;
+  }
+}
 /*NavBar Styles */
  .nav-link:hover, .nav-link:active, .nav-link:focus{
    font-weight: bold;

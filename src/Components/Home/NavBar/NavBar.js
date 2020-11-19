@@ -13,7 +13,7 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto d-flex align-items-start">
-            <Link className="nav-link  text-dark mr-2" to="/home">Home</Link>
+            <Link className="nav-link  text-dark mr-2" to="/#home">Home</Link>
             <Link className="nav-link  text-dark mr-2" to="/#about">About</Link>
             <Link className="nav-link text-dark mr-2" to="/services">Services</Link>
             <Link className="nav-link text-dark mr-2" to="/pricing">Pricing</Link>

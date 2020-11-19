@@ -1,6 +1,8 @@
 .heading{
     font-weight: 600;
     font-size: 75px;
+    color: #0D052E;
+    font-family: 'Yeseva One', cursive;
 }
 @media screen and (max-width: 768px){
     .heading{
@@ -9,6 +11,11 @@
 }
 @media screen and (max-width: 500px){
     .heading{
-        font-size: 40px;
+        font-size: 35px;
     }
 }  
+@media screen and (max-width: 400px){
+    .heading{
+        font-size: 30px;
+    }
+} 

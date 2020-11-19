@@ -1,14 +1,12 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import NavBar from '../NavBar/NavBar';
 import bannerImg from '../../images/banner.png';
 import './Banner.css';
 const Banner = () => {
     return (
         <>
             <div id="home">
-                <NavBar></NavBar>
                 <section className="banner">
                     <Container fluid="sm">
                         <Row>
@@ -16,7 +14,7 @@ const Banner = () => {
                                 <div>
                                     <h1 className="heading"> Florence Agency</h1>
                                     <br/>
-                                    <p>
+                                    <p className="p-text">
                                         Lorem Ipsum has been the industry's standard dummy text ever 
 since the 1500s, when an unknown printer took a galley of type and 
 scrambled it to make a type specimen book.
