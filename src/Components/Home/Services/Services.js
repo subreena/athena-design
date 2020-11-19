@@ -34,7 +34,7 @@ const achievement = [
 const Services = () => {
     const [achievements] = useState(achievement);
     return (
-        <section id="services">
+        <section id="services" >
             <Container fluid>
                 <Row>
                     <div className="col-12 col-md-5">

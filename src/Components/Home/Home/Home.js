@@ -5,14 +5,18 @@ import Contact from '../Contact/Contact';
 import Pricing from '../Pricing/Pricing';
 import Services from '../Services/Services';
 
+ 
+
 const Home = () => {
     return (
        <>
+      
        <Banner></Banner>
        <About></About>
        <Services></Services>
        <Pricing></Pricing>
        <Contact></Contact>
+
        </>
     );
 };

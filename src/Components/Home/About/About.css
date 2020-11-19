@@ -1,4 +1,14 @@
 .about-cards{
-    padding: 20px;
+    padding: 20px 25px;
     margin: 10px;
+    border-radius: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-cards:hover{
+    border-radius: 50px 0;
+    background-color: #fff;
+    box-shadow: 10px 10px 40px #9df0e1e1;
 }

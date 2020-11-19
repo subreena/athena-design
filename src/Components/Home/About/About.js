@@ -6,6 +6,7 @@ import illustration from '../../images/Illustrating.png';
 import interfaceImg from '../../images/Interface.png';
 import { Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './About.css'
 
 const aboutCard = [
     {
@@ -35,7 +36,7 @@ const About = () => {
     return (
         <>
             <section id="about">
-                <Container >
+                <Container fluid>
                     <section>
                         <div className="text-center mb-5">
                             <h2 className="section-title">What we do</h2>
