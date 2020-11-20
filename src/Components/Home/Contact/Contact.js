@@ -12,7 +12,7 @@ import { faBasketballBall} from '@fortawesome/free-solid-svg-icons';
 const Contact = () => {
     return (
     <>
-        <section className="contact-container text-center">
+        <section className="contact-container text-center" id="contact-us">
 
             <div className="contact-header mb-5 mt-5">
                 <h2 className="section-title">Get your design right, right now</h2>
