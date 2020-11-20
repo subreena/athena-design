@@ -4,7 +4,7 @@ import './Pricing.css';
 const Pricing = () => {
     return (
        <>
-        <section className="pricing-container container-fluid">
+        <section className="pricing-container">
             <h2 className="section-title mb-5 text-center">Choose Your Dedicated Team</h2>
             <div className="row">
                 <div className="col-md-4 p-5">
@@ -15,7 +15,7 @@ const Pricing = () => {
                                 <h6 className="price-tag">For Basic</h6>
                             </div>
                             <p class="card-text text-center global-list p-3">
-                                <ul className="pr-4">
+                                <ul className="pr-4 container-fluid">
                                     <li><h6>Homepage</h6></li>
                                     <li><h6>No Inner Page</h6></li>
                                     <li><h6>Asset file</h6></li>
@@ -39,7 +39,7 @@ const Pricing = () => {
                                     <h6 className="price-tag">For Preferred</h6>
                                 </div>
                                 <p class="card-text text-center global-list p-3">
-                                    <ul className="pr-4">
+                                    <ul className="pr-4 container-fluid">
                                         <li><h6>Homepage</h6></li>
                                         <li><h6>4 Inner Pages</h6></li>
                                         <li><h6>Asset file</h6></li>
@@ -63,7 +63,7 @@ const Pricing = () => {
                                 <h6 className="price-tag">For Elite</h6>
                             </div>
                             <p class="card-text text-center global-list p-3">
-                                <ul className="pr-4">
+                                <ul className="pr-4 container-fluid">
                                     <li><h6>Homepage</h6></li>
                                     <li><h6>8 Inner Pages</h6></li>
                                     <li><h6>Asset file</h6></li>

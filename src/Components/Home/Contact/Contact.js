@@ -29,12 +29,12 @@ const Contact = () => {
                     <div className="col-md-4">
                         <img src={logo} alt=""/>
 
-                        <div className="icon-part">
-                            <FontAwesomeIcon className="icon-item" icon={faFacebook} />
-                            <FontAwesomeIcon className="icon-item" icon={faTwitter} />
-                            <FontAwesomeIcon className="icon-item" icon={faLinkedinIn} />
-                            <FontAwesomeIcon className="icon-item" icon={faBasketballBall} />
-                            <FontAwesomeIcon className="icon-item" icon={faBehance} />
+                        <div className="icon-part d-flex justify-content-center">
+                            <Link to="/#"><FontAwesomeIcon className="icon-item" icon={faFacebook}/></Link>
+                            <Link to="/#"><FontAwesomeIcon className="icon-item" icon={faTwitter}/></Link>
+                            <Link to="/#"><FontAwesomeIcon className="icon-item" icon={faLinkedinIn}/></Link>
+                            <Link to="/#"><FontAwesomeIcon className="icon-item" icon={faBasketballBall}/></Link>
+                            <Link to="/#"><FontAwesomeIcon className="icon-item" icon={faBehance}/></Link>
                         </div>
 
                     </div>
