@@ -18,11 +18,9 @@ const Contact = () => {
                 <h2 className="section-title">Get your design right, right now</h2>
                 <p style={{color:'gray'}}>Be the first know our latest offers and updates!</p>
             </div>
-            <div className="mt-5">
-                <label htmlFor="">
-                    <input type="text" name="" id="" placeholder="Enter your email address"/>
+            <div className="mt-5 search-bar">
+                    <input type="text" className="input-p" name="" id="" placeholder="Your email address"/>
                     <button className="contact-btn">Get Started</button>
-                </label>
             </div>
             <div className="container-fluid footer-body">
                 <div className="row">

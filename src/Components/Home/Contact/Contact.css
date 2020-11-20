@@ -7,24 +7,19 @@ label{
     position: relative;
     
 }
-input[type="text"]{
-    border: none;
-    width: 400px;
-    height: 40px;
-    padding: 0 15px;
-    box-shadow: 0px 0px 10px lightgray;
 
-}
 .contact-btn{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
     background: linear-gradient(to left, rgba(4, 182, 231, 0.774), #25fcdb);
     color: white;
-
+    outline: none;
+    border: none;
+    width: 25%;
 }
-
+.contact-btn:focus , .contact-btn:hover{
+    outline: none;
+    border: none;
+    background: linear-gradient(to left, rgba(18, 192, 240, 0.815), #25fcdce8);
+}
 .footer-body{
     margin-top: 80px;
 }
@@ -44,4 +39,40 @@ input[type="text"]{
     cursor: pointer;
 }
 
+.search-bar{
+  display: block;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+}
 
+.input-p {
+    border: none;
+    width: 70%;
+    height: 40px;
+    padding: 0 15px;
+    box-shadow: 0px 0px 10px lightgrey;
+}
+@media screen and (max-width: 600px){
+    .search-bar{  
+        width: 90%; 
+    }
+  .input-p{
+    width: 60%; 
+  }
+  .contact-btn{
+      width: 40%
+  }
+}
+@media screen and (max-width: 400px){
+    .search-bar{  
+        width: 90%; 
+    }
+  .input-p{
+    width: 60%; 
+  }
+  .contact-btn{
+      width: 40%
+  }
+}

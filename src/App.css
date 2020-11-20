@@ -3,6 +3,7 @@ html{
 }
 body{
   background-color: #FAFFFD;
+  overflow-x: hidden;
 }
 p{
   font-family: 'Montserrat', sans-serif;

@@ -4,10 +4,10 @@ import './Pricing.css';
 const Pricing = () => {
     return (
        <>
-        <section className="pricing-container">
+        <section className="pricing-container" id="pricing">
             <h2 className="section-title mb-5 text-center">Choose Your Dedicated Team</h2>
             <div className="row">
-                <div className="col-md-4 p-5">
+                <div className="col-12 col-md-4 p-5">
                     <div class="card p-3">
                         <div class="card-body">
                             <div className="text-center">
@@ -31,7 +31,7 @@ const Pricing = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 p-5">
+                <div className="col-12 col-md-4 p-5">
                     <div class="card p-3">
                         <div class="card-body">
                                 <div className="text-center">
@@ -55,7 +55,7 @@ const Pricing = () => {
                             </div>                                           
                         </div>
                 </div>
-                <div className="col-md-4 p-5">
+                <div className="col-12 col-md-4 p-5">
                     <div class="card p-3">
                         <div class="card-body">
                             <div className="text-center">
